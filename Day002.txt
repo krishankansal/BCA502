@@ -1,0 +1,45 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git
+
+In Previous class We discussed following points
+1. Operation System
+2. Different Hardwares
+3. Why Interpreted Language.
+4. structural Vs OOPS
+5. Platform Independent
+------------------------------------------------
+CUI - Character User Interface
+GUI - Graphical User Interface
+
+web scraping
+------------
+Byte code
+
+Input services
+Output Sevices
+File Handling
+
+c:\MyProg\test.csv
+
+/MyProg/test.csv
+
+Internet Services
+
+
+What do mean by Runtime Environment
+------------------------------------
+It provides services to our program.
+Such as, Input Services, Output Servives, File Services, DataBase Services,
+Network Services etc.
+
+
+
+
+
+
+
+
+
+
