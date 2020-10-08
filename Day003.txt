@@ -5,6 +5,13 @@ BCA- 502 Java Programming and Dynamic Webpage Design
 All necessary material can be found at
 https://github.com/krishankansal/BCA502.git
 
+Java Virtual Machine(JVM)
+Java Runtime Environment(JRE)
+Java Development Kit(JDK)
+	Compiler
+	Interpreter
+	API
+
 Basic building blocks for java language
 -----------------------------------------
 1. Program (Source Code)
@@ -42,8 +49,138 @@ char
 In C & C++  char is of 1bytes.
 In Java char is of 2 bytes.
 
+web
+
 0000 0000 - 0
 1111 1111 - 255
+
+Numeric data type
+-----------------
+1. byte   -  1
+2. short  -  2
+3. int    -  4
+4. long   -  8
+5. float  -  4  (For decimal values, example 10.23,1.04)
+6. double -  8 (For decimal values, example 10.23,1.04)
+
+C & C++
+--------
+int x = 10
+int x = -34
+
+unsigned int x = 10 (negative numbers are not allowed)
+unsigned int x = -19 (Errrrrrrrror)
+
+
+Q. How Compiler or Interpreted comes to know whether the number
+is negative or positive.
+
+ 
+12     -12
+
+Suppose int is of 8bit(1 bytes)
+
+Binary of 1
+0000 0001
+
+What will be the binary of -1?
+0000 0001
+1111 1110 (1's complement)
+----------
+1111 1111 (2's complement) 
+ Binary of -1 is 1111 1111
+
+Just see the Left Most Bit(LMB)
+Binary of 1
+0000 0001 (If LMB is zero, then the number is positive)
+Binary of -1 
+1111 1111 (If LMB is one, then the number is negative)
+
+Q. What is the benefit of declaring a variable as unsigned?
+1. signed - LMB is kept reserved for sign, we cant use it to 
+    save data.
+2. unsigned - All bits are available to save data.
+
+Now whats the benefit
+---------------------
+Let take an example of 4 bit.
+Signed
+_000 (Smallest value)  0
+_111 (largest value)   7
+
+unsigned
+0000 (Smallest value)  0
+1111 (largest value)   15
+
+Numeric data type
+-----------------
+1. byte   -  1
+2. short  -  2
+3. int    -  4
+4. long   -  8
+5. float  -  4  (For decimal values, example 10.23,1.04)
+6. double -  8 (For decimal values, example 10.23,1.04)
+
+IN JAVA ALL THE DATA TYPES ARE BY DEFAULT SIGNED.
+There is no keywork unsigned in java language.
+
+Have you ever heard about -0 in computers.
+Never....
+Why?
+Binary of 0
+0000 0000
+Binary of -0
+0000 0000
+1111 1111
++       1
+----------
+0000 0000	(2's complement)
+
+IN JAVA LANGUAGE ALL THE DATA TYPES ARE AUTOMATICALLY
+INITIALIZED TO THERE DEFAULT VALUES.
+
+IN C & C++
+-----------
+int x;
+printf("%d",x);  -> it will take some garbage value.
+
+But in java
+-----------
+int x;
+x will never get a garbage value, it will automatically be
+initialzed to its default value i.e 0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+	
+
+
+
 
 
 
