@@ -1,0 +1,83 @@
+Day 4
+----------
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git : 
+
+
+variables : Variables are named memory location.
+----------
+
+int x = 10;
+
+x
+------
+f0ab
+
+int x;  // this is variable declaration
+x = 10; // this is variable initialization
+
+int x = 10; // variable, declaration & initialization
+
+
+First java program
+------------------
+1. Every java program is a class(keyword).
+2. main - is a method name
+3. args[] is a array of type String
+4. void - is a return type of main() method
+
+
+class Hello{
+	public static void main(String args[]){
+		System.out.println("Welcome Students");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
