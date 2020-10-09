@@ -35,6 +35,114 @@ class Hello{
 	}
 }
 
+class A{
+	public static void main(String args[]){
+		int x; // This is variable declaration
+		x = 20; // This is variable initialization
+		System.out.println(x);
+	}
+}
+
+NOTE:
+-----
+final keyword: If final keyword is used with variable declaration and
+inititialization, then its value becomes constant. i.e we can't change the
+value of a variable that is declared as final.
+
+class B{
+	public static void main(String args[]){
+		final int x = 20; 
+		x = 40; // error
+		x = x + 20; // error
+		System.out.println(x);
+	}
+}
+
+Note : All the decimal point numbers are treated as double(8bytes)
+Therefore this program will generate error, since you cant copy
+the 64 bit data in 32 bits.
+class C{
+	public static void main(String args[]){
+		float f = 23.78; 		
+		System.out.println(f); // error
+	}
+}
+
+Note:
+------
+If we want to declare a float variable, be specific, use either
+small(f) or capital (F)
+
+class D{
+	public static void main(String args[]){
+		float f = 23.78f; // We can also use F here		
+		System.out.println(f); // error
+	}
+}
+
+As in C & C++ language it is very much complex to handle Strings.
+Why? We have to first create an char array.
+
+For this java language provides a class named String.
+
+Now its very simple to create or handle strings in java language.
+
+String s = "This is my first string";
+
+
+class E{
+	public static void main(String args[]){
+		String s = "This is my first string";	
+		System.out.println(s);
+	}
+}
+
+It is also very easy to concatenate strings in java language.
+we have to simply use concatenation operator i.e +
+
+class F{
+	public static void main(String args[]){
+		String s = "Hello";	
+		String s1 = "World!";
+		System.out.println(s+ " " +s1);
+	}
+}
+
+class G{
+	public static void main(String args[]){
+		String s = "Hello";	
+		String s1 = "World!";
+		System.out.println(s + " " + s1 + 10);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
