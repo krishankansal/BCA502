@@ -1,0 +1,166 @@
+Day 5
+----------
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git : 
+
+String : 
+---------
+String is not a primitive type data type.
+Basically String is a inbuild class.
+
+String concatenation
+--------------------
+What is the difference between single quote and double quote?
+''
+""
+Single Quote '' : 'a'
+
+String s = "I am studying java.";
+String s1 = "World";
+s2 = s+s1;
+
+Here + operator is overloaded.
+------------------------------
+int x = 12 + 13;
+s2 = s + s1;
+
+methods of class String
+-----------------------
+length() - method
+-----------------
+length() method returns the length of the string
+
+class B{
+	public static void main(String args[]){
+		String str = "abcdefghijklmnopqrstuvwxyz";
+		System.out.println(str.length());
+		}
+}
+
+class C{
+	public static void main(String args[]){
+		String str = "abcdefghijklmnopqrstuvwxyz";
+		System.out.println(str.toUpperCase());
+		}
+}
+
+class D{
+	public static void main(String args[]){
+		String str = "abcdefghijklmnopqrstuvwxyz";
+		System.out.println(str.indexOf("m"));
+		}
+}
+
+In java, Strings are index based. And index always starts from 0.
+
+indexOf() - method
+-------------------
+1. will return the position of string which is passed as parameter and return its index.
+2. If string is not found then it will return -1.
+
+Arithmentic operators
+----------------------
++,-,*,/, % (Binary operators)
+
+z = x + y; (Beacuse it needs two operands)
+
+Unary operator
+______________
+only needs one operand.
+example ++x - prefix, x++ - postfix.
+
+
+NOTE : postfix operator first returns the value, then increment the 
+value
+class E{
+	public static void main(String args[]){
+		int x = 10;
+		System.out.println("Value of x++ = " + x++); //10
+		System.out.println("Value of x = " + x); //11		
+	}
+}
+
+class F{
+	public static void main(String args[]){
+		int x = 10;
+		int y = x++;
+		System.out.println("Value of x = " + x); // 11
+		System.out.println("Value of y = " + y); // 10		
+	}
+}
+
+
+class G{
+	public static void main(String args[]){
+		int x = 10;
+		int y = ++x;
+		System.out.println("Value of x = " + x); // 11
+		System.out.println("Value of y = " + y); // 10		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
