@@ -1,0 +1,11 @@
+Assignment - 1
+---------------
+Date : 12/10/20(Monday)
+Submission Date: 16/10/20(Friday)
+Q1. Explain JDK, JRE and JVM?
+Q2. What is byte code, explain in reference with compiler and interpreter.
+Q3. Explain public static void main(String args[]) in Java.
+Q4. Why Java is platform independent?
+Q5. Write a short note on all the eigth primitive type data types
+	in java language. 
+
