@@ -1,0 +1,70 @@
+Day 6
+----------
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git : 
+
+Control Statements
+------------------
+
+5 < 5
+
+class A{
+
+	public static void main(String args[]){
+	
+	int x = 30;
+	int y = 20;
+	
+		if( x < y){
+			System.out.println("x is less then y");
+		}
+	
+	}
+}
+
+class B{
+
+	public static void main(String args[]){
+	
+	int x = 30;
+	int y = 20;
+	
+		if(x < y){
+			System.out.println("x is less then y");
+		}else{
+			System.out.println("x is greater then y");
+		}
+	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
