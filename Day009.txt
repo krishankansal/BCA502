@@ -1,0 +1,114 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git
+
+Complex Application
+-------------------
+They have to manipulate lot of data.
+Banking Application
+
+int x = 10;
+
+Customer(Entity)
+---------
+1. Balance
+2. Name, address.............
+
+functions
+----------
+1. Deposit
+2. Withdraw
+3. NEFT
+4. Transfer
+
+class Customer{
+	float balance;
+	String name;
+	String address;
+		.......
+		.......
+	System.out.println("Welcome Customer");// error
+	void deposit()
+	{
+	}
+	void withdraw()
+	{
+	}
+	void balance()
+	{	
+	}
+	void trasferMoney()
+	{
+	}	
+
+
+}
+
+class Car{
+
+	int number of wheels = 4;
+	
+}
+
+Methods
+-------
+For manipulating class data.
+
+Object Oriented Programming Languages
+-------------------------------------
+C++, Java, C#, Python
+
+Class : class is a user defined data type.
+
+Customer yash;
+int amount;
+
+Q. Is it possible to create our own data types?
+A. Yes
+Q. How?
+A. By creating a class.
+
+IMPORTANT
+---------
+A class can contain only and only two things
+1. Property(Data)
+2. Methods(functionality)
+
+Object
+-------
+1. Variable of class.
+2. Object
+3. Instance of class.
+
+C++
+----
+1. Customer c;
+2. Customer c = new Customer;
+
+Note : In java objects can only be passed by reference, 
+they cannot be passed by value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
