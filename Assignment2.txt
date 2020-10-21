@@ -1,0 +1,12 @@
+Assignment - 2
+---------------
+Date : 21/10/20(Wednesday)
+Submission Date: 23/10/20(Friday)
+
+Q1. What is final variable? Give example also.
+Q2. Define Class.
+Q3. Define Object.
+Q4. Differentiate between pass by value and pass by 
+    reference.
+Q5. Explain the following statement for creating object
+		Box ob = new Box();
