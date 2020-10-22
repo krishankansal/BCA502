@@ -1,0 +1,119 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git
+
+class Box1{
+        int height;
+        int width;
+        int depth;
+
+        Box1(int x,int y, int z){
+        this.height = x;
+        this.width = y;
+        this.depth = z;
+        }  
+        
+        int volume(){
+        	int vol = this.height * this.width * this.depth;
+        	return vol;
+        }     
+
+        public static void main(String args[]){
+        Box1 b = new Box1(10,10,10); // First Object
+        Box1 b1 = new Box1(20,20,20); // Second Object
+        System.out.println("Volume of b = " + b.volume());
+        System.out.println("Volume of b1 = " + b1.volume());
+        }
+
+}
+
+
+Note : Constructors are fired automatically, when we create the object.
+
+class A{
+A(){
+        System.out.println("Constructor Called");
+}
+public static void main(String args[]){
+        A ob = new A();
+}
+}
+
+this keyword
+------------
+this is a keyword which refers to the
+1. current object
+2. calling object
+
+Methods
+--------
+There are four building blocks of methods.
+1. Method Name
+2. Parameter List
+3. Return Type
+4. Body of Method
+
+int volume(int a, int b, int c){
+	vol = a * b * c;
+	return vol;
+}
+
+int volume(){
+	
+}
+
+Practical Class
+----------------
+Program : To print the multiplication table of 5
+5 X 1 = 5
+5 X 2 = 10
+....
+....
+....
+5 X 10 = 50
+
+
+class Table{
+	public static void main(String args[]){
+	int x = 5;
+	for(int i=1; i<=10; i++){
+		System.out.println("" + x + " X " + i + " = " + x*i);
+	}	
+	}
+}
+
+Program : To display the message whether the given character is
+an alphabet or not.
+
+char = '#';
+a.....z  A.....Z
+
+class CharOrNot{
+	
+	public static void main(String args[]){
+	char c = '7';
+	if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		System.out.println(c + "is an alphabet");
+	else
+		System.out.println(c + " is not an alphabet");
+	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
