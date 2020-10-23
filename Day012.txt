@@ -1,0 +1,136 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git
+
+Software
+---------
+1. Desktop Applications
+MS Word, Notepad, Gaming Applications
+C, C++, Java, C#, Python.
+
+
+2. Server Side Application
+Applications which runs in browser.
+There are Minimum of three layers.(Layered Architecture)
+1. Client Side(Browser)(HTML+CSS+JavaScript)
+2. Middle Ware
+	- Java(Java Server Pages, Struts, Spring, Hibernate)
+	- ASP.NET(C#)
+	- PHP
+	- Python(Django) 
+3. Backend(Database)(MySQl, Postgres, SQLite)
+
+Method Overloading
+------------------
+What do you mean by method overloading
+--------------------------------------
+In java language we can have multiple methods with same name.
+Method should have different parameter list.
+
+class MethodOverloading{
+void sum(int a, int b){
+	System.out.println("sum(int a, int b) called");
+	System.out.println("The sum is = " + (a+b));
+}
+
+void sum(int a, int b, int c){
+	System.out.println("sum(int a, int b, int c) called");
+	System.out.println("The sum is = " + (a+b+c));
+}
+public static void main(String args[]){
+MethodOverloading  ob = new MethodOverloading();
+ob.sum(2,3);
+}
+
+}
+
+
+Constructors
+-------------
+1. Constructors are called automatically whenever we create the object.
+
+Program to demonstrate above concept.
+
+class MyClass{
+	
+	MyClass(){
+		System.out.println("Constructor called");
+	}
+	
+	public static void main(String args[]){
+	MyClass a = new MyClass();
+	MyClass a = new MyClass();
+	MyClass a = new MyClass();	
+	}
+}
+Note : There is no restriction on the number of objects.
+
+class MyClass1{
+	
+	MyClass1(){
+		System.out.println("Constructor called");
+	}
+	
+	public static void main(String args[]){
+		for(int i=0; i<= 10; i++)
+			new MyClass1();	// Anonymous object.
+	}
+}
+
+Java language always provides one default constructor. i.e constructor
+with no parameters. For example
+
+MyClass()
+{
+}
+
+But this constructor will initialize all the properties of class to thier
+default value.
+
+class A{
+
+	A(int a){
+		System.out.println("A(int a) called");	
+	}
+	public static void main(String args[]){
+		A ob = new A();
+	}
+}
+
+Java runtime environment only provides the default constructor only
+if there is no constructor in the class.
+
+class A{
+
+	// Example of constructor overloading.
+	A(){
+		System.out.println("default constructor called");	
+	}
+	A(int a){
+		System.out.println("A(int a) called");	
+	}
+	A(int a, int b){
+		System.out.println("A(int a, int b) called");	
+	}
+	public static void main(String args[]){
+		A a = new A(2,3);
+		A b = new A();
+		A c = new A(2);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
