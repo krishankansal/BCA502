@@ -1,0 +1,60 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git    
+    
+Code Reusability
+----------------
+
+class Employee{
+float salary = 30000;
+}
+
+
+class Programmer extends Employee{
+int bonus = 2000;
+}
+
+BCA- 502 Java Programming and Dynamic Webpage Design
+
+All students should submit there assignments i.e Assignment-1 & Assignment-2
+at krishan.kansal@iamr.ac.in 
+
+Subject line should contain assignment number and subject code.
+
+Sample subject line
+-------------------
+BCA- 502  Assignment-2
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    class Employee{  
+     float salary=40000;  
+    }  
+    class Programmer extends Employee{  
+     int bonus=10000;  
+     public static void main(String args[]){  
+       Programmer p=new Programmer();  
+       System.out.println("Programmer salary is:"+p.salary);  
+       System.out.println("Bonus of Programmer is:"+p.bonus);  
+    }  
+    }  
