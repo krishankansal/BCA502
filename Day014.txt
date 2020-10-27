@@ -1,0 +1,47 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git  
+
+
+No need to invent wheel again and again.
+
+class Employee{
+		void getName(){
+			System.out.println("I am Rahul Sharma");
+		}    
+    }
+    
+    class Programmer extends Employee{    
+		void language(){
+			System.out.println("I Write Code In Java");
+		}
+		
+    public static void main(String args[]){
+    	Programmer p = new Programmer();
+    	p.language();
+    	p.getName();
+    	
+    }
+    
+    }
+
+
+class Animal{
+void eat(){System.out.println("eat called");}
+}
+class Dog extends Animal{
+void bark(){System.out.println("bark called");}
+}
+class BabyDog extends Dog{
+void weep(){System.out.println("weep called");}
+}
+
+class TestInheritance{
+public static void main(String args[]){
+BabyDog b = new BabyDog();
+b.eat();
+b.bark();
+b.weep();
+}
+}
