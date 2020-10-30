@@ -1,0 +1,139 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git  
+
+Note : static properties can be used by the objects
+
+class A{
+
+	static String name = "IAMR";
+
+	public static void main(String args[]){
+	
+		A ob = new A();
+		System.out.println(ob.name);
+		
+	}
+}
+
+Note : any object can change the value of class property
+class A{
+
+	static String name = "IAMR";
+
+	public static void main(String args[]){
+	
+		A x = new A();
+		System.out.println(x.name);
+		A y = new A();
+		y.name = "IAAMR";
+		System.out.println(x.name);
+		System.out.println(y.name);
+		
+	}
+}
+
+Note : static properties can be called with the help of class name,
+no need to instantiate the class.
+
+class A{
+
+	static String name = "IAMR";
+
+	public static void main(String args[]){		
+		System.out.println(A.name);			
+	}
+}
+
+Q. In java language why? main method is always static?
+A. main() method is always static, so that interpreter 
+can call main method directly with the help of class name
+i.e without instantiating the class.
+
+
+
+
+How many types of methods are there in java language?
+
+There are two types of methods in java language
+1. Instance Method
+
+	void sum(int a, int b){
+		int x = a + b;	
+	}
+	
+2. Class Method
+
+	static void sum(int a, int b){
+		int x = a + b;	
+	}
+	
+	Class methods, can be called directly with the help of class name
+	i.e without instantiating the class.
+
+
+class A{
+
+	// class method
+	static void hello(){
+		System.out.println("Hello Students Of IAMR");
+	}
+		
+	// instance method
+	void bye(){
+		System.out.println("Bye Students Of IAMR");
+	}
+
+	public static void main(String args[]){		
+		A x = new A();
+		x.hello();
+		x.bye();	
+		
+	}
+}
+
+class A{
+
+	// class method
+	static void hello(){
+		System.out.println("Hello Students Of IAMR");
+	}
+		
+	// instance method
+	void bye(){
+		System.out.println("Bye Students Of IAMR");
+	}
+
+	public static void main(String args[]){		
+		// A.bye();  error
+		A.hello();
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

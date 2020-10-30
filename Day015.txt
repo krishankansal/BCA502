@@ -1,0 +1,100 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git  
+
+static keyword
+--------------
+
+int x = 10;
+
+In Java language there is no concept of global variables.
+
+There are three types of variables in Java Language
+1. Instance Variables
+	- variables that are declared with in class are known as
+	  instance variables.
+	  
+Examples:
+	class MyClass{
+		float salary;
+		String name;
+		int age;
+		static String companyName = "TCS";	
+	}
+A, B, C, D	  
+	
+	  
+2. Local Variables
+	- The variables that are declared within the method are known as local
+	  variables.
+	
+	void sum(int a, int b){
+		int x = a + b;	
+	}
+	
+	- These variables are called local variables since there scope is local.	
+	
+
+3. Class Variables
+	- static variables are known as class variables.
+
+
+
+
+class CountObject{
+	int count = 0;
+	
+	CountObject(){
+		count = count + 1;
+		System.out.println("Total Number Of Objects = " + count);
+	}
+	
+	public static void main(String args[]){
+		CountObject a = new CountObject();
+		CountObject b = new CountObject();
+		CountObject c = new CountObject();
+		CountObject d = new CountObject();
+	}
+	
+}
+
+class CountObjects{
+	static int count = 0;
+	
+	CountObjects(){
+		count = count + 1;
+		System.out.println("Total Number Of Objects = " + count);
+	}
+	
+	public static void main(String args[]){
+		CountObjects a = new CountObjects();
+		CountObjects b = new CountObjects();
+		CountObjects c = new CountObjects();
+		CountObjects d = new CountObjects();
+	}	
+}
+
+class Student{
+	int rollno;
+	String name;
+	static collegeName = "IAMR";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
