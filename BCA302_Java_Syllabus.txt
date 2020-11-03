@@ -1,0 +1,35 @@
+C.C.S. University, Meerut.
+Bachelors of Computer Application
+Semester – wise
+Course Code Course Name: BCA- 502 Java Programming and Dynamic Webpage Design
+
+UNIT-I
+-------
+Java Programming: Data types, control structured, arrays, strings, and vector, classes
+(inheritance, package, exception handling) multithreaded programming.
+
+UNIT-II
+--------
+Java applets, AWT controls (Button, Labels, Combo box, list and other Listeners, menu bar) layout manager, string handling (only main functions)
+
+UNIT-III
+---------
+Networking (datagram) JDBC:
+socket and TCP/IP based server socket) event handling,
+Introduction, Drivers, Establishing Connection, Connection Pooling.
+
+UNIT-IV
+--------
+HTML: use of commenting, headers, text styling, images, formatting text with <FONT>, special characters, horizontal rules, line breaks, table, forms, image maps, <META> tags,
+<FRAMESET> tags, file formats including image formats.
+
+UNIT-V
+-------
+Java Servlets: Introduction, HTTP Servlet Basics, The Servlet Lifecycle, Retrieving
+Information, Sending HTML Information, Session Tracking, Database Connectivity
+
+UNIT-VI
+-------
+Java Server Pages: Introducing Java Server Pages, JSP Overview, Setting Up the JSP
+Environment, Generating Dynamic Content, Using Custom Tag Libraries and the JSP Standard
+Tag Library, Processing Input and Output
