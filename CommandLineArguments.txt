@@ -1,0 +1,88 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+-----------------------------------------------------
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git  
+
+C:\Program Files\Java\jdk1.8.0_73\src\java
+
+Application Programming Interface
+C:\Program Files\Java\jdk1.8.0_73\src\java\lang
+
+Run the command
+javadoc *.java
+
+Q. What are Java Command Line Arguments?
+A. The java command-line argument is an argument i.e. passed 
+at the time of running the java program.
+For compiling we use the command
+--------------------------------
+javac A.java
+
+For running the program we use command
+--------------------------------------
+java A 10 20 James   Here we have passed total three arguments
+
+args[0] = 10
+args[1] = 20
+args[2] = James
+
+
+The arguments passed from the console can be received in the java program
+and it can be used as an input.
+
+class A{  
+public static void main(String args[]){  
+System.out.println("Your first argument is: " + args[0]);  
+}  
+}  
+
+class B{  
+    public static void main(String args[]){  
+        try{
+        System.out.println("Your first argument is: " + args[0]);  
+        }catch(ArrayIndexOutOfBoundsException e){
+            System.out.println("You have to provide one argument");
+        }
+    }  
+} 
+
+
+Example of command-line argument that prints all the values
+-----------------------------------------------------------
+class C{  
+    public static void main(String args[]){   
+    System.out.println("Total Number of Arguments = " + args.length);
+      
+    }  
+}
+
+
+class C{  
+public static void main(String args[]){  
+  
+for(int i=0;i<args.length;i++)  
+System.out.println(args[i]);  
+  
+}  
+}
+
+class A
+{ 
+    public static void main(String[] args) 
+    { 
+        // check if length of args array is greater than 0 
+        if (args.length > 0) 
+        { 
+            System.out.println("The command line arguments are:"); 
+  
+            // iterating the args array and printing 
+            // the command line arguments 
+            for (int i=0;i<args.length;i++) 
+                System.out.println(args[i]); 
+        } 
+        else
+            System.out.println("No command line arguments found."); 
+    } 
+} 
+
+ 
