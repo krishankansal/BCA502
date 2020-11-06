@@ -8,3 +8,5 @@ Q2. What are Runtime Exceptions.
 Q3. What is Exception Handling.
 Q4. When did ArithmeticException occurs?
 Q5. What do you mean by ArrayIndexOutOfBoundsException.
+Q6. What are Java Command Line Arguments? Explain giving
+    appropriate example.
