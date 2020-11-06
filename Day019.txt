@@ -1,0 +1,60 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git  
+
+Graphical User Interface (GUI)
+
+For designing GUI application in java we require following steps.
+
+STEP - 1
+---------
+import awt package by writing the command
+
+import java.awt.*;
+
+STEP - 2
+--------
+extend your class with Frame class.
+
+Now every object of our class will be a frame.
+
+STEP - 3
+--------
+By default frame is not visible, there always use the method
+setVisible(true);
+
+import java.awt.*;
+
+class A extends Frame{
+    public static void main(String args[]){
+        A x = new A();
+        x.setSize(600,300);
+        x.setVisible(true);      
+    }
+
+}
+
+-----------------------------------------------
+import java.awt.*;
+
+class B extends Frame{
+
+    B(){
+        setSize(300,300);
+        setLayout(null); // we will place the button manually
+        Button b = new Button("BCA III Year");
+        b.setBounds(100,100,100,50);
+        b.setBackground(Color.red);
+        b.setForeground(Color.green);
+        add(b);
+        setBackground(Color.yellow);
+        setVisible(true);
+    }
+
+
+    public static void main(String args[]){
+        B x = new B();            
+    }
+
+}
+
