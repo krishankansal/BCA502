@@ -6,5 +6,5 @@ Submission Date: 09/11/20(Monday)
 Q1. Explain static keyword, static variables, static methods.
 Q2. What are Runtime Exceptions.
 Q3. What is Exception Handling.
-Q4. When did ArithmeticEcxeption occurs?
-Q5. What do you mean by ArrayOutOfBoundsException.
+Q4. When did ArithmeticException occurs?
+Q5. What do you mean by ArrayIndexOutOfBoundsException.
