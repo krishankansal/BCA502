@@ -3,7 +3,7 @@ Assignment - 3
 Date : 06/11/20(Friday)
 Submission Date: 09/11/20(Monday)
 
-Q1. Explain static keyword, static varuables, static methods.
+Q1. Explain static keyword, static variables, static methods.
 Q2. What are Runtime Exceptions.
 Q3. What is Exception Handling.
 Q4. When did ArithmeticEcxeption occurs?
