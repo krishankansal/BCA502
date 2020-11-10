@@ -1,0 +1,129 @@
+BCA- 502 Java Programming and Dynamic Webpage Design
+All necessary material can be found at
+https://github.com/krishankansal/BCA502.git  
+
+Graphical User Interface (GUI)
+
+Border Layout
+-------------
+It can only display five components.
+NORTH
+SOUTH
+EAST
+WEST
+CENTER
+
+By default Frame uses Border Layout. And first component is
+added in the center.
+
+import java.awt.*;
+
+class F extends Frame{
+    F(){
+        setSize(500,300);
+        setLayout(null); // we will place the button manually
+        setVisible(true);
+        MenuBar mb = new MenuBar();
+        Menu m1 = new Menu("File");
+        Menu m2 = new Menu("Edit");
+        Menu m3 = new Menu("Format");
+        Menu m4 = new Menu("View");
+        Menu m5 = new Menu("Help");
+        MenuItem mi1 = new MenuItem("New         Ctrl+N");
+        MenuItem mi2 = new MenuItem("Open...     Ctrl+O");
+        MenuItem mi3 = new MenuItem("Save        Ctrl+S");
+        mb.add(m1); mb.add(m2); mb.add(m3); mb.add(m4); mb.add(m5);
+        m1.add(mi1);m1.add(mi2);m1.add(mi3);
+        setMenuBar(mb);
+
+    }
+
+
+public static void main(String args[]) {
+    F x = new F();
+    
+}
+
+}
+
+import java.awt.*;
+
+// Demo of Flow Layout
+
+class G extends Frame{
+    G(){
+        setSize(400,300);
+        setLayout(new FlowLayout());
+        setVisible(true);
+        Button b = new Button("Button-1");
+        Button b1 = new Button("Button-2");
+        Button b2 = new Button("Button-3");
+        Button b3 = new Button("Button-4");
+        Button b4 = new Button("Button-5");
+        Button b5 = new Button("Button-6");
+        Button b6 = new Button("Button-7");
+        Button b7 = new Button("Button-8");
+        add(b);add(b1);add(b2);add(b3);add(b4);add(b5);
+        add(b6);add(b7);
+    }
+       
+        public static void main(String args[]) {
+            G x = new G();            
+        }        
+}
+
+import java.awt.*;
+
+// Demo of Flow Layout
+
+class H extends Frame{
+    H(){
+        setSize(400,300);        
+        setVisible(true);
+        setLayout(new BorderLayout());
+        Button b = new Button("NORTH");
+        Button b1 = new Button("SOUTH");
+        Button b2 = new Button("EAST");
+        Button b3 = new Button("WEST");
+        Button b4 = new Button("CENTER");        
+        add(b, BorderLayout.NORTH);
+        add(b1, BorderLayout.SOUTH);
+        add(b2, BorderLayout.EAST);
+        add(b3, BorderLayout.WEST);
+        add(b4, BorderLayout.CENTER);
+    }
+       
+        public static void main(String args[]) {
+            H x = new H();            
+        }        
+}
+
+import java.awt.*;
+
+// Demo of Flow Layout
+
+class I extends Frame{
+    I(){
+        setSize(200,300);        
+        setVisible(true);
+        setLayout(new GridLayout(4,4,5,5));
+        Button b = new Button("1");
+        Button b1 = new Button("2");
+        Button b2 = new Button("3");
+        Button b3 = new Button("4");
+        Button b5 = new Button("6");
+        Button b6 = new Button("7");
+        Button b7 = new Button("8");
+        Button b8 = new Button("9"); 
+        Button b9 = new Button("0");
+        Button b10 = new Button("-");
+        Button b11 = new Button("+");
+        Button b12 = new Button("*");           
+        add(b);add(b1);add(b2);add(b3);add(b5);
+        add(b6);add(b7);add(b8);add(b9);add(b10);add(b11);add(b12);
+    }
+       
+        public static void main(String args[]) {
+            I x = new I();            
+        }        
+}
