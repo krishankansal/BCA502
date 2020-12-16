@@ -1,0 +1,16 @@
+Assignment - 4
+---------------
+Date : 16/12/20(Friday)
+Submission Date: 21/12/20(Monday)
+
+Q1. What is thread? What are the advantange of mutithreading? Write a program in java for creating two threads.
+Q2. Explain
+	ExceptionHandling
+	super keyword
+	final keyword
+	this keyword
+Q3. Differentiate between
+	Method overloading and Method overriding
+	Constructor and Method
+Q4. Write a program to count the number of objects created in a program.
+Q5. What do you mean by constructor? Differentiate between default constructor and parameterized constructor with example.
